@@ -1,1 +1,15 @@
 # domaci2
+
+0.  Napisati program koji vrši određenu obradu nad podacima o nekretninama Evropskih gradova. Podaci o nekretninama se nalaze u tekstualnoj datoteci čije se ime učitava sa standardnog ulaza. Svaki red u ovoj datoteci se odnosi na jednu nekretninu i sadrži sledeća polja: naziv grada u kome se nekretnina nalazi, površina nekretnine u metrima kvadratnim (realan broj), sprat na kome se nekretnina nalazi (ceo broj, veći ili jednak 0), broj soba nekretnine (pozitivan ceo broj) i cenu nekretnine (realan broj). Polja datoteke su razdvojena znakom zarez (,). Na osnovu ove datoteke potrebno je formirati tekstualnu datoteku stats.txt na osnovu zadatih kriterijuma spratnosti i broja soba, samo za one gradove sa barem jednom nekretninom koja zadovoljava sve zadate kriterijume. Kriterijumi se zadaju u jednom redu ulaza, razdvojeni jednim znakom zarez, pri čemu su oba kriterijuma opciona (zarez se navodi ako su oba kriterijuma izostavljena). Ukoliko neki od kriterijuma nije zadat, on se ne primenjuje. Ukoliko kriterijumi nisu zadati u navedenom formatu, signalizirati grešku. Svaki red izlazne datoteke treba da sadrži podatke o nekretninama jednog grada i to naziv grada, minimalnu i maksimalnu cenu nekretnina, kao i prosečnu cenu nekretnina po kvadratnom metru, pri čemu su svi podaci odvojeni tačno jednim blanko znakom. Gradove sortirati leksikografski rastuće po nazivu.
+
+Program treba da:
+
+1)  Učita imena ulazne datoteke, kao i opcione zadate kriterijume sa standardnog ulaza. Svaki podatak je zadat u novom redu.
+
+2)  Učita podatke iz zadate datoteke.
+
+3)  Izvrši zahtevanu obradu prema tekstu zadatka.
+
+4)  Formira izlaznu datoteku prema tekstu zadatka. 
+
+5)  Vodi računa i obradi moguće izuzetke koji mogu nastati prilikom rada programa
