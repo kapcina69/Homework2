@@ -1,3 +1,32 @@
+Write a program that performs specific processing on real estate data from European cities. 
+Real estate data is stored in a text file whose name is read from standard input. 
+Each line in this file pertains to one property and contains the following fields: 
+city name where the property is located, area of the property in square meters (a real number), 
+floor where the property is located (a non-negative integer), 
+number of rooms in the property (a positive integer), 
+and the price of the property (a real number). Fields in the file are separated by commas (,).
+
+Based on this file, generate a text file named stats.txt according to specified criteria of floor level and number of rooms, 
+only for cities with at least one property that meets all specified criteria. The criteria are provided in a single input line, 
+separated by a comma. Both criteria are optional (include a comma if both criteria are omitted). 
+If the criteria are not provided in the specified format, signal an error. 
+Each line in the output file should contain data about properties in one city: city name, minimum and maximum property prices, 
+and the average price per square meter, with all data separated by exactly one space. Cities should be sorted lexicographically by name.
+
+The program should:
+
+1) Read the name of the input file and optional criteria from standard input. Each piece of data is provided on a new line.
+
+2) Read the data from the specified file.
+
+3) Perform the required processing according to the task description.
+
+4) Generate the output file according to the task description.
+
+5) Handle and process any potential exceptions that may occur during program execution.
+
+*SERBIAN*
+
 Napisati program koji vrši određenu obradu nad podacima o nekretninama Evropskih gradova. 
 Podaci o nekretninama se nalaze u tekstualnoj datoteci čije se ime učitava sa standardnog ulaza. 
 Svaki red u ovoj datoteci se odnosi na jednu nekretninu i sadrži sledeća polja:
